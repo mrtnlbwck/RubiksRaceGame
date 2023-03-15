@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9CFFDDDD"
+    tools:context=".StopActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+    <Button
+        android:id="@+id/button_resume"
+        android:layout_width="330dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:foreground="@drawable/kontynuuj" />
+
+    <Button
+        android:id="@+id/button_menu"
+        android:layout_width="330dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="80dp"
+        android:foreground="@drawable/menu_glowne"/>
+
+        <Button
+            android:id="@+id/button_reset"
+            android:layout_width="330dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="80dp"
+            android:foreground="@drawable/zagraj_jeszcze_raz"/>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
